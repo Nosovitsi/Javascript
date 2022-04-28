@@ -116,12 +116,52 @@
 //     alert(q);
 // }
 
-let а = "тойота";
-let б = "ниссан";
-let в = "мерседес";
-let г = "порше";
-alert("Назовите самую дорогую машину");
-alert("а) Тойота" + " б) Ниссан" + " в) Мерседес" + " г) Порше");
-let answer = prompt("а) Тойота" + " б) Ниссан" + " в) Мерседес" + " г) Порше", "Введите свой ответ");
-if (answer == "г") { alert("Вы правы") } else { alert("Вы проиграли") }
-alert("Следующий вопрос")
+
+// let car = ["Мазда", "Тойота", "Ниссан", "Лексус", "БМВ"];
+// let Мазда = cars[0];
+// let Тойота = cars[1];
+// let Ниссан = cars[2];
+// let Лексус = cars[3];
+// let БМВ = cars[4];
+// for (let q = [], ); {
+//     alert(q)
+// };
+
+// let num1 = (213);
+// let num2 = (519);
+// alert(Number(num1) * Number(num2));
+
+// let x = 213 * 519;
+// alert(x);
+
+// let x = 12;
+// let y = x * 12;
+// alert(y);
+
+// let a = "Привет";
+// let name = "Вася";
+// alert(a + ", " + name);
+
+// let name = prompt("Кто ты, воин?")
+// let age = prompt("Сколько тебе лет?" + name);
+// alert("тебе " + age + " лет");
+
+// конкатенация - склеивание двух строк
+
+// let number1 = prompt("Введите первое число", 0);
+// let number2 = prompt("Введите второе число", 0);
+// let action = prompt("Выберите действие", "Например + - * /");
+// if (action == "+") {
+//     alert(Number(number1) + Number(number2));
+// } else if (action == "-") {
+//     alert(Number(number1) - Number(number2));
+// } else if (action == "*") {
+//     alert(Number(number1) * Number(number2));
+// } else if (action == "/") {
+//     alert(Number(number1) / Number(number2));
+// } else {
+//     alert("Вы не выбрали действие");
+// }
+
+// let a = 5;
+// let a = 6;
