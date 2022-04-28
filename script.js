@@ -172,7 +172,24 @@
 // a = a + 1;
 // a == 4;
 
-let b = prompt("Привет, как тебя зовут?");
-let age = Number(prompt("Сколько тебе лет?"));
-let age2 = age + 10;
-alert(b + ", через 10 лет тебе будет " + age2 + " лет");
+// let b = prompt("Привет, как тебя зовут?");
+// let age = Number(prompt("Сколько тебе лет?"));
+// let age2 = age + 10;
+// alert(b + ", через 10 лет тебе будет " + age2 + " лет");
+
+// let b = prompt("Привет, как тебя зовут?");
+// let age = Number(prompt("Сколько тебе лет?")) + 10;
+// alert(b + ", через 10 лет тебе будет " + age + " лет");
+
+
+
+// alert(prompt("Привет, как тебя зовут?") + ", через 10 лет тебе будет " + (Number(prompt("Сколько тебе лет?")) + Number(10)) + " лет");
+
+// let number_1 = 7 / 10;
+// let number_2 = 15 + (3 / 10);
+// let number_3 = 2 ** 2;
+// alert(((number_1 + number_2) / number_3) + 15);
+
+// let a = Number(-5);
+// let b = Number(50);
+// alert(a + b);
