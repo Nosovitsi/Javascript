@@ -160,8 +160,19 @@
 // } else if (action == "/") {
 //     alert(Number(number1) / Number(number2));
 // } else {
-//     alert("Вы не выбрали действие");
+//     alert("Ты слишком тупой, выбери действие");
 // }
 
 // let a = 5;
 // let a = 6;
+
+// a = 1;
+// a = a + 1;
+// a = a + 1;
+// a = a + 1;
+// a == 4;
+
+let b = prompt("Привет, как тебя зовут?");
+let age = Number(prompt("Сколько тебе лет?"));
+let age2 = age + 10;
+alert(b + ", через 10 лет тебе будет " + age2 + " лет");
