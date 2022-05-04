@@ -192,4 +192,9 @@
 
 // let a = Number(-5);
 // let b = Number(50);
+// let result = a + b;
+// alert(result);
+
+// let a = Number(-5);
+// let b = Number(50);
 // alert(a + b);
