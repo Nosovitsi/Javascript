@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework_7</title>
+</head>
+
+<body>
+    <script>
+        let result = 0;
+        let answer = prompt("Вопрос N1:" + "\nКакой язык используется для верстки сайтов?\n" + "a)Python  b)C++ c)HTML d)Pascal").toLowerCase();
+        if (answer == "c") {
+            alert("Правильно!" + "\nВы выиграли 500 рублей \n" + "Ваш текущий выигрыш составляет: " + (result + 500) + " рублей")
+        } else {
+            alert("Вы проиграли")
+        }
+        if (answer == "c") {
+            let answer_2 = prompt("Вопрос N2:" + "\nКакое обозначение соотвествует черному цвету в RGB модели цветов?\n" + "a)255 0 0  b)255 255 255 c)100 100 0 d)0 0 0").toLowerCase();
+            if (answer_2 == "d") {
+                alert("Правильно!" + "\nВы выиграли 1000 рублей \n" + "Ваш текущий выигрыш составляет: " + (result + 1000) + " рублей")
+            } else {
+                alert("Вы проиграли")
+            }
+
+            if (answer_2 == "d") {
+                let answer_2 = prompt("Вопрос N3:" + "\nКакой из этих элементов является блочным?\n" + "a)<select> b)<div> c)<basefont> d)<textarea>").toLowerCase();
+                if (answer_2 == "b") {
+                    alert("Правильно!" + "\nВы выиграли 2000 рублей \n" + "Ваш текущий выигрыш составляет: " + (result + 2000) + " рублей")
+                } else {
+                    alert("Вы проиграли")
+                }
+            } else {
+                alert("игра окончена")
+            }
+
+        } else {
+            alert("игра окончена")
+        }
+    </script>
+</body>
+
+</html>
