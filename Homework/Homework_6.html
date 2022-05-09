@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Questions</title>
+</head>
+
+<body>
+    <script>
+        "use strict";
+        /////////////////////////////////////////////////////////////////////
+        let result = 0;
+        let answer = prompt("У Олиной мамы 5  дочек: Вика, Марта, Кира, Таня... \nКак зовут пятую дочь?\n \n a)Оля b)Соня c)Рита d)Дакота\n").toLowerCase();
+        if (answer == "a") {
+            alert("Правильно!")
+            result = result + 1;
+        } else {
+            alert("Вы проиграли")
+        }
+        if (answer == "a") {
+            let answer_2 = prompt("В отеле 4 этажа. Чем выше этаж, тем больше людей там живет.  \nНа какой этаж чаще ездит лифт?\n \n a)2 b)3 c)4 d)1\n").toLowerCase();
+            if (answer_2 == "d") {
+                alert("Правильно!")
+                result = result + 1;
+            } else {
+                alert("Вы проиграли")
+            }
+            if (answer_2 == "d") {
+                let answer_3 = prompt("На двух руках 10 пальцев.  \nСколько пальцев на 10 руках?\n \n a)20 b)10 c)50 d)100\n").toLowerCase();
+                if (answer_3 == "c") {
+                    alert("Правильно!")
+                    result = result + 1;
+                } else {
+                    alert("Вы проиграли")
+                }
+            }
+        }
+        if (result == 0) {
+            alert("Вы не ответили ни на один вопрос")
+        } else if (result == 1) {
+            alert("Вы ответили  на один вопрос")
+        } else if (result == 2) {
+            alert("Вы ответили  на два вопроса")
+        } else if (result == 3) {
+            alert("Вы ответили  на три вопроса")
+        }
+    </script>
+</body>
+
+</html>
