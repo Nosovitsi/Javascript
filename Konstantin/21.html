@@ -5,27 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>21</title>
 </head>
 
 <body>
     <script>
         "use strict";
 
-        function random() {
-            const random = Math.random() * 10
-            console.log(Math.floor(random), random)
-        }
-        random()
+        // function random() {
+        //     const random = Math.random() * 10
+        //     console.log(Math.floor(random), random)
+        // }
+        // random()
 
 
-        function random() {
-            const random = Math.random();
-            console.log(Math.floor((random) * (max - min + 1) + min), random * 10);
-        }
-        const min = 0;
-        const max = 10;
-        random();
+        // function random() {
+        //     const random = Math.random();
+        //     alert(Math.floor((random) * (max - min + 1) + min));
+        // }
+
+        let score = 0;
+        const min = 2;
+        const max = 11;
+        const random = Math.random();
+        let result = Math.floor((random) * (max - min + 1) + min)
+        alert(result);
+        score = score + result;
+        let question = confirm("Желаете еще одну карту?")
+        if (question == true) {
+            alert("хорошо" + score)
+        } else("Ваш результат = " + result)
     </script>
 </body>
 
