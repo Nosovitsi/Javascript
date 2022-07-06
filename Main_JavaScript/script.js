@@ -3,3 +3,6 @@ let lenght = Number(prompt("Введите значение длины"));
 let area = width * lenght;
 let size = (2 * (width + lenght));
 console.log("Площадь равна: " + area + " Периметр равен: " + size);
+if (width == lenght) {
+    console.log("Это квадрат")
+}
