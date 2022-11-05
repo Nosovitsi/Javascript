@@ -198,3 +198,5 @@
 // let a = Number(-5);
 // let b = Number(50);
 // alert(a + b);
+
+console.log(" c___c\n /. .\\\n \\_T_/\n /' '\\\n(/ . \\)\n/'; ;'\\\n()/ \\()");
